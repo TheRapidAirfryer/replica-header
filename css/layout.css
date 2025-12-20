@@ -170,3 +170,32 @@
     align-items: start;
   }
 }
+
+/* CONTACT + CTA + FOOTER LAYOUT */
+
+.contact,
+.cta,
+.footer {
+  padding: 3rem 1rem;
+}
+
+.contact__container,
+.cta__container,
+.footer__container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* FOOTER LAYOUT */
+.footer__container {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .footer__container {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+}
+
