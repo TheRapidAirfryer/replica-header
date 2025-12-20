@@ -199,3 +199,37 @@
   }
 }
 
+/* =========================
+   HEADER RESPONSIVE
+========================= */
+
+/* Tablet */
+@media (min-width: 768px) {
+  .header {
+    padding: 24px 48px;
+  }
+
+  .header__logo img {
+    width: 100px;
+  }
+
+  .header__menu-button {
+    gap: 6px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .header {
+    padding: 28px 64px;
+  }
+
+  .header__logo img {
+    width: 120px;
+  }
+
+  .header__menu-icon {
+    width: 32px;
+  }
+}
+
